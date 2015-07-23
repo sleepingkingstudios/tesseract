@@ -1,0 +1,18 @@
+# Ignore local configuration files.
+/.rspec
+/.ruby-gemset
+/.ruby-version
+
+# Ignore bundler config.
+/.bundle
+
+# Ignore Gemfile.lock for gems and libraries.
+Gemfile.lock
+
+# Ignore generated documentation.
+/doc
+.yardoc
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
