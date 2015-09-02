@@ -44,6 +44,8 @@ require 'byebug'
 
 RSpec.configure do |config|
   config.extend RSpec::SleepingKingStudios::Concerns::WrapExamples
+
+  config.include RSpec::SleepingKingStudios::Examples::PropertyExamples
 end # configure
 
 # Requires supporting ruby files with custom matchers and macros, etc, in
